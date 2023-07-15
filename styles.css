@@ -50,26 +50,17 @@
 
 .flex-container {
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
 }
 
 .flex-item {
-    width: 300px;
-}
-
-.item-1 {
-    align-self: center;
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 
 .item-2 {
-    align-self: flex-end;
+    flex-grow: 9;
 }
 
 .item-3 {
-    align-self: stretch;
-}
-
-.item-4 {
-    align-self: baseline;
+    flex-grow: 2;
 }
