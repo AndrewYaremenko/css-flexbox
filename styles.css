@@ -22,7 +22,6 @@
 
 .item-2 {
     background: linear-gradient(45deg, #84fab0, #8fd3f4);
-    font-size: 150px;
 }
 
 .item-3 {
@@ -31,7 +30,6 @@
 
 .item-4 {
     background: linear-gradient(45deg, #d4fc79, #96e6a1);
-    font-size: 100px;
 }
 
 .item-5 {
@@ -53,14 +51,14 @@
 .flex-container {
     display: flex;
     min-height: 100vh;
-    align-items: center;
-
-    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.flex-item {
-    /* width: 100px; */
-}
+/* .flex-item {
+    width: 200px;
+} */
 
 
 @media screen and (max-width: 650px) {
