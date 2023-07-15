@@ -51,19 +51,25 @@
 .flex-container {
     display: flex;
     min-height: 100vh;
-    align-content: stretch;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
-/* .flex-item {
-    width: 200px;
-} */
+.flex-item {
+    width: 300px;
+}
 
+.item-1 {
+    align-self: center;
+}
 
-@media screen and (max-width: 650px) {
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-    }
+.item-2 {
+    align-self: flex-end;
+}
+
+.item-3 {
+    align-self: stretch;
+}
+
+.item-4 {
+    align-self: baseline;
 }
