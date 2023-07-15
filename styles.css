@@ -50,17 +50,13 @@
 
 .flex-container {
     display: flex;
+    height: 100vh;
 }
 
-.flex-item {
-    flex-basis: 300px;
+.flex-item{
     flex-grow: 1;
 }
 
-.item-2 {
-    flex-grow: 9;
-}
-
-.item-3 {
-    flex-grow: 2;
+.item-1 {
+    order: 1;
 }
